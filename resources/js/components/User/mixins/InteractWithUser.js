@@ -95,8 +95,8 @@ export default {
                     {
                         customer_address_id: address.id,
                     },
-                    address
-                )
+                    address,
+                ),
             )
         },
     },
