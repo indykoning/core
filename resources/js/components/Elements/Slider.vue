@@ -141,8 +141,8 @@ export default {
             }
 
             return this.vertical
-                ? this.slider.children[0]?.offsetHeight ?? this.slider.offsetHeight
-                : this.slider.children[0]?.offsetWidth ?? this.slider.offsetWidth
+                ? (this.slider.children[0]?.offsetHeight ?? this.slider.offsetHeight)
+                : (this.slider.children[0]?.offsetWidth ?? this.slider.offsetWidth)
         },
         sliderSpan() {
             if (!this.mounted) {
